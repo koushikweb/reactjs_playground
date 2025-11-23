@@ -1,0 +1,34 @@
+/* Menu.css */
+/* Sidebar menu container aligned to the left */
+.menu-container {
+  position: fixed;
+  top: 0;
+  left: 20px;
+  height: 100vh;
+  width: 180px;
+  background: #fff;
+  box-shadow: 2px 0 8px rgba(0,0,0,0.05);
+  padding-top: 40px;
+  z-index: 100;
+}
+
+.menu-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-item {
+  margin-bottom: 20px;
+  margin-right: 0;
+  font-size: 18px;
+  color: #3366ff;
+  cursor: pointer;
+}
+
+.menu-item:last-child {
+  margin-bottom: 0;
+}
