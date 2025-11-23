@@ -16,6 +16,9 @@ const Navbar = () =>  {
             <li className="menu-item">
                 <Link to="/savedata">Save</Link>
             </li>
+            <li className="menu-item">
+                <Link to="/search">Search</Link>
+            </li>
         </ul>
         </nav>
         </>
